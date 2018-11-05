@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Vols&Séjours</title>
+
+<!-- css nivo slider ligne 6 et 10-->
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+<!-- ;../ est enveler 10-->
+	<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="style.css" media="screen">
+</head>
+
+<body>
+<div id="page">
+    
+        <nav id="menuhaut">
+            <ul>
+                <li><a href="#">Blog</a></li>
+
+                <li><a href="#">Nous contacter</a></li>
+
+                <li><a href="#">Newsletter</a></li>
+
+                <li><a href="#">Site Mobile</a></li>
+
+                <li class="client" ><a href="#">Espace Client</a></li>
+            </ul>
+        </nav>
+ 
+
+
+	<header id="bandeau" role="banner">
+        <h1><a href="index.html"><img id="logo" src="images-travel/logo-travel.jpg" alt="www.travel.com"></a></h1>
+
+		
+	</header>
+
+
+	<div id="introvols">
+		<h1>Voyagez dans
+		 le monde <br>avec Travel&pleasure!</h1>
+		
+		<h2>Achetez nous billets</br> pour aller dans des lieux tels que : </h2>
+	</div>
+	 
+
+
+	<section id="vols">
+
+		
+		<article class="plages">
+			<h1>Portugal</h1>
+				<h2>Plage do Portinho, Setubal, prés de <span class="capital">Lisbonne</span></h2>
+				<img src="images-travel/praiaportinho.jpg">
+
+		
+		<p>Située dans le Parc Naturel de la Montagne de Arrábida, la Plage de Portinho est l'une des plus belles du Portugal, à 1h de Lisbonne. Son sable blanc et les tons bleus de ses eaux limpides contrastent avec la végétation verdoyante de la chaîne de montagnes. Sa vue panoramique sur l’arrière-pays de Setubal et la presqu’île de Troia est à couper le souffle.
+        Cette baie tranquille donne accès à des recoins cachés et insoupçonnés. L’occasion de serpenter le flanc des collines au milieu des pinèdes et des ruines médiévales. Quand l’écume embrasse la montagne</p>
+
+		</article>
+
+		<article class="plages">
+			<h1>Brésil</h1>
+				<h2>Plage de Copacabana,<span class="capital">Rio de Janeiro</span></h2>
+				<img src="images-travel/copacabana.jpg">
+
+		
+		<p>Si vous souhaitez faire la fête, rendez-vous dans le district de Rio de Janeiro, à Copacabana. Célèbre dans le monde entier, cette plage est aussi un lieu où règne une animation constante.</p>
+
+		</article>
+</section>
+
+<form id="form">
+	 	<fieldset class="fieldset">
+	 		<legend>Choissisez votre vol</legend>
+	 		<p>
+						<label for="Trajet">Trajet</label>
+						<select name="Trajet" id="trajet">
+							<option value="Aller simple">Aller simple</option>
+							<option value="aller-retour" selected>Aller-Retour</option>
+						</select>
+					</p>
+					<p>
+					
+						<label for="villedépart">Ville de départ</label>
+						<select name="villedépart" id="villedépart">
+							<option value="Paris">Vannes</option>
+							<option value="Londres" selected>Londres</option>
+							<option value="Washington">Washington</option>
+							<option value="Lisbonne" selected>Lisbonne</option>
+							<option value="RiodeJaneiro" selected>Rio de Janeiro</option>
+		
+							
+						</select>
+					</p>
+					<label for="villearriver">Ville d'arriver</label>
+						<select name="villearriver" id="villearriver">
+							<option value="Paris">Vannes</option>
+							<option value="Londres" selected>Londres</option>
+							<option value="Washington">Washington</option>
+							<option value="Lisbonne" selected>Lisbonne</option>
+							<option value="RiodeJaneiro" selected>Rio de Janeiro</option>
+		
+	
+						</fieldset>
+						</form>
+
+<!-- page de fin-->
+	<footer id="pied"> 
+    <div id="contenupied">
+    <p id="copyright"> &copy; 2017-Tous droits réservés </p>
+    <p id="mention"> Info légales</p>
+</div>
+
+
+
+
+</footer>
+
+
+
+<!--script de nivo slider pris sur la ligne 30 a 36-->
+<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+<!--on a mit script devant /jquery-->
+ <script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+ <script type="text/javascript">
+ $(window).load(function() {
+ $('#slider').nivoSlider({
+ 			controlNav:false
+ 		})
+  });
+ </script>
+
+</body>
+</html>

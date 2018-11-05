@@ -1,0 +1,225 @@
+*{
+	margin:0;/* toujours a faire pour prendre la main*/
+	padding: 0;
+}
+ul{
+	list-style-type: none;/* pas de puce */
+}
+a {
+	text-decoration: none;/* pas de soulignement*/
+}
+body{
+	background-image:url(images-travel/bandeau-haut.jpg);
+	background-repeat: repeat-x;	
+}
+#page {
+	max-width: 1101px;
+	width: 100%;
+	margin:0 auto;	
+}
+#menuhaut {
+	width: 100%;
+}
+#menuhaut ul{
+	display: flex;
+	padding-top: 10px;
+}
+#page #menuhaut ul li{/*nouveau*/
+	padding: 1px 2% 1px 2%;
+	border-right: 2px solid white;
+}
+#page #menuhaut ul li:nth-child(4){
+    border: none;
+}
+#page #menuhaut ul li a{
+    width:100%;
+   color: white;
+}
+#page #menuhaut ul li.client{
+    text-align: right;/*la ligne client a droite*/
+    width:51%;
+    border: none;
+}
+#bandeau{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#reseau{
+	text-align: right;
+	color: #d5a66f;
+}
+#pied{/*mylene*/
+    background-image: url(images-travel/bandeau-bas.jpg);
+    background-repeat: repeat-x;
+}
+#contenupied{
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1101px;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+}
+#mention {/*nouveau*/
+	padding-right: 2%;
+}
+#contenupied #mention{
+    text-align: right;/*mylene*/
+}
+/*	-------------fin page index-------------*/
+/*--------------- page sejours-------------------*/
+
+#mentionslegales{
+	background: url(images-travel/avion.jpg);
+	height:394px;
+
+}
+
+#mentionslegales h1{
+text-align: center;
+padding-top:15%;
+color: black;
+}
+
+#mentitre{
+ 	font-size:50px;
+ 	font-family: arial;
+ 	text-align:center;
+}
+
+
+
+#menpage{
+ max-width: 1101px;
+ margin: 40px;
+ display:inline-flex;
+ padding:10px;
+ 
+}
+.menpageart{
+	width:40%;
+   padding:10px;
+   border:1px solid black;
+  box-shadow: 2px  2px 10px black;
+
+}
+
+
+#menpage p{
+	font-size:20px;
+	text-align:justify;
+
+}
+
+/*==============vols================*/
+
+#introvols{
+	min-height:400px; /*definir auteur du bloc*/
+    background: url(images-travel/monde.jpg);
+    margin-bottom:30px;
+ 	
+}
+
+#introvols h1{
+	text-align: center;
+	background-color:#3E7F93;
+	color:white;
+}
+
+#introvols h2{
+	text-align: center;
+	background-color:#3E7F93;
+	color:white;
+	margin-top: 35%;
+	font-size:30px;
+}
+
+ 
+
+
+/*section de vols*/
+
+#vols{
+	min-height:400px;
+	display:flex;
+	justify-content: space-around;
+	
+}
+
+
+#vols h1{
+	color:#3E7F93;
+	text-decoration: underline;
+	text-shadow: 1px 1px black;
+	font-size:30px;
+	padding-bottom:4px;
+	text-align:center;
+}
+
+.plages{
+    width: 47%;
+	
+}
+
+#vols h2{
+ font-size:25px;
+ text-align:center;
+}
+
+#vols img{
+	width:100%;
+	padding-top:10px;
+	height:300px;
+}
+
+
+#vols p{
+	font-size:20px;
+	margin:10px;
+	padding:10px;
+	text-align:justify;
+	line-height:27px;
+}
+
+
+.capital{
+	color:#3E7F93;
+	text-decoration: underline;
+	text-shadow: 1px 1px black;
+	font-size:25px;
+}
+
+/*formulaire de vol*/
+#form{
+	max-height:1000px;
+    background: url(images-travel/avion.jpg);
+
+}
+
+
+.fieldset{
+max-width:400px;
+border:2px solid black;
+margin-left:30%;
+padding:10px;
+
+
+}
+
+legend{
+	font-size:30px;
+	color:white;
+	border:2px solid black;
+	margin-left:70px;
+	font-family:impact;
+	padding:10px;
+}
+
+label{
+	margin-bottom:10px;
+}
