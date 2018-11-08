@@ -1,17 +1,20 @@
 *{
-	margin:0;/* toujours a faire pour prendre la main*/
+	margin:0;/*centrer la page*/
 	padding: 0;
 }
-ul{
-	list-style-type: none;/* pas de puce */
-}
+
 a {
 	text-decoration: none;/* pas de soulignement*/
+}
+ul{
+	list-style-type: none; /*pas de pouces*/
 }
 body{
 	background-image:url(images-travel/bandeau-haut.jpg);
 	background-repeat: repeat-x;	
 }
+
+
 #page {
 	max-width: 1101px;
 	width: 100%;
@@ -74,69 +77,27 @@ body{
 /*	-------------fin page index-------------*/
 /*--------------- page sejours-------------------*/
 
-#mentionslegales{
-	background: url(images-travel/avion.jpg);
-	height:394px;
-
-}
-
-#mentionslegales h1{
-text-align: center;
-padding-top:15%;
-color: black;
-}
-
-#mentitre{
- 	font-size:50px;
- 	font-family: arial;
- 	text-align:center;
-}
-
-
-
-#menpage{
- max-width: 1101px;
- margin: 40px;
- display:inline-flex;
- padding:10px;
- 
-}
-.menpageart{
-	width:40%;
-   padding:10px;
-   border:1px solid black;
-  box-shadow: 2px  2px 10px black;
-
-}
-
-
-#menpage p{
-	font-size:20px;
-	text-align:justify;
-
-}
-
 /*==============vols================*/
 
 #introvols{
 	min-height:400px; /*definir auteur du bloc*/
-    background: url(images-travel/monde.jpg);
-    margin-bottom:30px;
+    background: url(images-travel/monde.jpg); /*mettre image de font*/
+    margin-bottom:30px; /*mettre de l'espace entre le bloc introvols et et la section vols*/
  	
 }
 
 #introvols h1{
-	text-align: center;
-	background-color:#3E7F93;
-	color:white;
+	text-align: center; /*aligner le texte au milieu*/
+	background-color:#3E7F93; /*mettre la coleur de fond en bleu*/
+	color:white; /*mettre le titre écrit en blanc*/
 }
 
 #introvols h2{
-	text-align: center;
-	background-color:#3E7F93;
-	color:white;
-	margin-top: 35%;
-	font-size:30px;
+	text-align: center; /*aligner le texte au milieu*/
+	background-color:#3E7F93; /*mettre la coleur de fond en bleu*/
+	color:white;/*mettre le titre écrit en blanc*/
+	margin-top: 35%; /*mettre une marge en haut pour separer du premier titre et pour que le h2 reste en bas*/
+	font-size:30px; /*augmenter la taille du texte*/
 }
 
  
@@ -145,30 +106,32 @@ color: black;
 /*section de vols*/
 
 #vols{
-	min-height:400px;
-	display:flex;
-	justify-content: space-around;
+	min-height:400px; /*mettre une hauteur minimal dans la page, si le contenu depasse 400px, la taille du bloc a le droit d'augmenter*/
+	display:flex; /*mettre les elements du bloc a cote*/
+	justify-content: space-around; /*mettre de l'espace entre au tour des blocs*/
 	
 }
 
 
 #vols h1{
 	color:#3E7F93;
-	text-decoration: underline;
-	text-shadow: 1px 1px black;
+	text-decoration: underline; /*souligner les titres*/
+	text-shadow: 1px 1px black; /*mettre des ombres noirs */
 	font-size:30px;
-	padding-bottom:4px;
+	margin-bottom:4px; /*mettre de l'espace en bas pour separer de l'h2*/
 	text-align:center;
 }
 
 .plages{
-    width: 47%;
+    width: 47%; 
 	
 }
 
-#vols h2{
+
+#vols h3{
  font-size:25px;
  text-align:center;
+ margin-top:5%;
 }
 
 #vols img{
@@ -177,49 +140,72 @@ color: black;
 	height:300px;
 }
 
-
+#titreplages{
+	font-size:30px;
+	font-family: 'Comic Sans MS', cursive;
+}
 #vols p{
 	font-size:20px;
 	margin:10px;
 	padding:10px;
 	text-align:justify;
-	line-height:27px;
+	line-height:27px; /*pour définir la hateur de ligne*/
 }
+
+
+
+
 
 
 .capital{
 	color:#3E7F93;
-	text-decoration: underline;
-	text-shadow: 1px 1px black;
+	text-decoration: underline; /*souligner le texte*/
+	text-shadow: 1px 1px black; /*mettre de l'ombre dans texte*/
 	font-size:25px;
 }
 
 /*formulaire de vol*/
 #form{
 	max-height:1000px;
-    background: url(images-travel/avion.jpg);
-
+    background: url(images-travel/avion.jpg); /*mettre comme image de fond*/
 }
 
 
 .fieldset{
-max-width:400px;
-border:2px solid black;
-margin-left:30%;
-padding:10px;
-
-
+max-width:400px; /*donner une largeur maximale pour empecher le bloc d'occuper toute la page*/
+border:2px solid black; /*donner une bordure solide de 2px noir dans le bloc*/
+margin-left:30%; /*donner une marge a gauche pour le deplacer*/
+padding:20px 0 20px 20px; /*donner des valeurs de padding pour pas qu'il soit colle a la bordure*/
 }
 
 legend{
 	font-size:30px;
 	color:white;
-	border:2px solid black;
-	margin-left:70px;
-	font-family:impact;
-	padding:10px;
+	border:2px solid black; /*donner une bordure au "choississez votre vol"*/
+	margin-left:70px; /*donner une marge a gauche pour bouger legend*/
+	font-family:impact; /*mettre la police impact*/
+	padding:10px;/*donner des valeurs de padding pour pas qu'il soit colle a la bordure*/
 }
 
-label{
-	margin-bottom:10px;
+
+
+
+
+p{
+	margin:0 10px 10px 0; /*separer un peu les paragraphes avec des margin pour faire des espaces*/
 }
+
+
+.bouttonre{
+	float:right; /*faire flotter dans la droite*/
+	margin-right: 5%; /*pour separer de la bordure droite*/
+	padding: 10px; 
+	font-family:arial;
+	font-weight: bold;
+}
+
+
+
+
+
+
